@@ -165,7 +165,7 @@ void handleSigint(int sig) {
     printf("\033[2D");
     // underlining Link with Yellow color (Better visibility).
     printf("🛑 Why not to vist \033[4;33mhttps://github.com/axait/\033[0m\n");
-    printf(" Caught Ctrl+C ! Exiting (2s) ...\n");
+    printf(" Caught Ctrl+C ! Exiting ...\n");
     sleep(2);
     // You can do cleanup here
     exit(0);  // Exit gracefully by returning 0 to OS,
